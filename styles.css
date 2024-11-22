@@ -42,3 +42,38 @@ body, html {
     transform: translateY(-5px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
 }
+
+.command-line-container {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.command-line-prompt {
+    color: #6a11cb;
+    font-family: 'Courier New', monospace;
+    font-size: 18px;
+}
+
+.command-line {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Courier New', monospace;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.command-line:focus {
+    border-bottom: 2px solid #6a11cb;
+}
